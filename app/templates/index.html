@@ -1,17 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="styles.css">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    {% block head %}
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
-        <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
-
-        <title>{% block title %}{% endblock %}This is {{ name }} Website</title>
-    {% endblock %}
-
+    <meta charset="UTF-8">
+    <title>First Webpage</title>
 </head>
 <body>
-My name is: {{ name }}
+ <header id="pageHeader">Hi! This is my first web page</header>
+  <article id="mainArticle">This is <span style="color:blue;font-weight:bold">Angela</span> from IS601-852
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget dolor vitae magna hendrerit dignissim non vel lacus. In dictum erat odio, nec facilisis augue hendrerit a. Phasellus eu tincidunt massa. Cras in pretium magna. Proin vehicula sed sem in semper. Praesent laoreet massa a turpis bibendum porta. Maecenas facilisis nunc in felis consectetur, sit amet lobortis nunc pharetra.
+Nam metus elit, consequat et ipsum in, semper suscipit nulla. Integer vel arcu risus. Donec vel urna odio. Quisque velit quam, molestie nec justo et, volutpat bibendum lectus. Quisque rhoncus dolor quis diam blandit, at eleifend dui sagittis. Morbi at condimentum eros, ut sodales justo. Nam ut velit augue. Nunc at ligula ipsum. Fusce placerat est ac consequat faucibus. Duis in sem eu urna vulputate mattis. Donec euismod quis mi eget congue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus pellentesque et leo lacinia tincidunt. Sed fermentum velit ac nisl placerat, laoreet mattis tellus condimentum. Vestibulum at suscipit magna.
+
+
+
+        Maecenas fringilla odio vitae massa tempus, mollis lacinia mauris elementum. Sed eu blandit felis, ac tempus risus. Aenean sed commodo diam. Pellentesque ut tincidunt leo, sit amet aliquet dolor. Vivamus condimentum lorem felis, sed sagittis est hendrerit et. Mauris sed odio ut dolor finibus semper quis eu nulla. Duis nec enim nec ante sodales ultricies. Donec vitae blandit velit, at mollis lorem. Integer tempor vestibulum aliquam. Morbi ac augue a tortor ultricies aliquam. Cras congue turpis non gravida maximus. Maecenas dolor massa, pretium quis ante malesuada, vestibelum scelerisque ante. Vivamus vel vulputate erat. Donec ut facilisis enim, ac tempus tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin consequat diam a finibus scelerisque. Donec ullamcorper eros facilisis elit tincidunt, eget fermentum nunc posuere. Ut consequat arcu nec mi semper egestas. Sed nisi leo, imperdiet nec mattis vulputate, ultrices sit amet ligula. Fusce enim dolor, suscipit non odio eget, finibus tincidunt arcu. Ut fermentum turpis ipsum, quis dignissim ligula eleifend at. Curabitur rhoncus facilisis mauris in elementum. Praesent ut vulputate elit. Integer vehicula nisi sit amet risus imperdiet imperdiet.
+
+
+
+
+        In hac habitasse platea dictumst. Proin interdum imperdiet sapien, in malesuada leo sodales sed. Fusce fermentum vulputate tortor, sed vehicula sem porta in. Etiam iaculis ultrices est. Curabitur vel tortor arcu. Quisque ac tincidunt quam. Cras fringilla odio nec ex lobortis, eget tincidunt tortor faucibus. Nullam tincidunt leo urna, quis consectetur enim auctor a. Aliquam at condimentum erat. Integer accumsan, ipsum ut semper ultricies, elit nisl sagittis mi, et dapibus massa turpis nec turpis. Fusce velit quam, sagittis eu volutpat ac, imperdiet et justo. Donec tempor quis lectus at maximus. Nulla accumsan lectus euismod molestie vulputate. Suspendisse nec pharetra erat, eget sodales risus. Aenean scelerisque sed turpis eget pharetra.</p> </article>
+
+
 </body>
 </html>
+
